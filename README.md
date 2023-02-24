@@ -1,4 +1,4 @@
-# Detect-and-Save-Eyes-and-Mouth-by-RetinaFace
+# Detect-Face-and-Apply-Gamma-Correction-with-RetinaFace
 
 ## Explain about this Repository
 1. Retinaface를 이용해 얼굴 전체를 나타내는 bounding box와 5개의 landmark(눈에 2개, 코에 1개, 입에 2개)를 찾음.
