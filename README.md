@@ -9,6 +9,14 @@
 6. 프레임 별 .jpg 파일 저장 
 
 
+## Explain about the codes respectively
+### face_detect.py
+- real-time으로 face를 detect하는 코드.
+- face와 left eye에 대한 bounding box 출력
+- left/right eye, nose, left/right mouth 포인트 출력 (5 landmarks)
+- Retinaface, mobilenet0.25 사용
+
+
 ## What's Difference?
   - Retinaface
   - Gamma correction
