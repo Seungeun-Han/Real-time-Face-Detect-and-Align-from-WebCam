@@ -14,6 +14,7 @@
 - real-time으로 face를 detect하는 코드.
 - face와 left eye에 대한 bounding box 출력
 - left/right eye, nose, left/right mouth 포인트 출력 (5 landmarks)
+- detect 결과를 face_detect_result.jpg로 저장
 - Retinaface, mobilenet0.25 사용
 
 
