@@ -51,7 +51,7 @@
 
   > The recognition rate of 94 percent is obtained for original images whereas it increased to 97 percent for normalized images.
 
-  _어쩌면 필요하지 않을지도.?_
+
 
 ### face alignment
 - https://github.com/1adrianb/face-alignment
