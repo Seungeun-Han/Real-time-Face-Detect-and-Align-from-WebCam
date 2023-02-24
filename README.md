@@ -56,7 +56,7 @@
 ### face alignment
 - https://github.com/1adrianb/face-alignment
 
-- what is blazeface?
+- insightface의 face alignment 방식 사용 예정
 
 
 ### Face Image Normalization For Authentication Under Diverse Lighting Conditions 논문 참고
