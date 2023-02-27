@@ -18,6 +18,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 
 ## Explain about the codes respectively
 ### face_detect.py
+
 - real-time으로 face를 detect하는 코드입니다..
 - face와 left eye에 대한 bounding box 출력
 - left/right eye, nose, left/right mouth 포인트 출력 (5 landmarks)
@@ -30,6 +31,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 <hr>
 
 ### face_align.py
+
 - real-time으로 face를 align하는 코드입니다.
 - insightface의 align 방식을 참고하였습니다.
 - align 후 size는 __473X473__ 입니다.
@@ -50,6 +52,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 <hr>
 
 ### gammaCorrection_and_ContrastNormalization.py
+
 - real-time으로 영상을 보정하는 코드입니다.
 - Gamma Correction 연산을 통해 Gamma 값을 계산하여 밝기를 적절하게 조정합니다.
 - Contrast Normalization 연산을 통해 대비를 적절하게 조정합니다.
