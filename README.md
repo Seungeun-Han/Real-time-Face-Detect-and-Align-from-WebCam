@@ -34,11 +34,13 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 - align 후 size는 __473X473__ 입니다.
 - align 후엔 웹캠에서 읽어오는 얼굴이 기울어지거나, 멀거나 가까워져도 5개의 landmark의 위치는 변하지 않습니다.
 
-#### result
+#### Result
 - Before Apply Alignment
+
 ![before_alignment_2](https://user-images.githubusercontent.com/101082685/221498721-cbbc6792-9475-449d-b945-d621ba274ee7.gif)
 
 - After Apply Alignment
+
 ![after_alignment_3](https://user-images.githubusercontent.com/101082685/221498736-7fcee3d9-9d28-414a-9907-4a5d9aece0ba.gif)
 
 
@@ -51,11 +53,13 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 - Gamma Correction 연산을 통해 Gamma 값을 계산하여 밝기를 적절하게 조정합니다.
 - Contrast Normalization 연산을 통해 대비를 적절하게 조정합니다.
 
-#### result
+#### Result
 - Before
+
 ![before_gc](https://user-images.githubusercontent.com/101082685/221506310-34bb96ee-1e04-4d55-a62e-da2fca542b67.jpg)
 
 - After
+
 ![after_gc](https://user-images.githubusercontent.com/101082685/221506332-44cc6c68-06ce-41c9-a801-5a523b9bd8f9.jpg)
 
 
