@@ -1,4 +1,4 @@
-# Detect-Face-and-Apply-Gamma-Correction-with-RetinaFace
+# Detect-Face-and-Apply-Gamma-Correction
 
 ## Explain about this Repository
 1. Retinaface를 이용해 얼굴 전체를 나타내는 bounding box와 5개의 landmark(눈에 2개, 코에 1개, 입에 2개)를 찾음.
@@ -16,6 +16,10 @@
 - left/right eye, nose, left/right mouth 포인트 출력 (5 landmarks)
 - detect 결과를 face_detect_result.jpg로 저장
 - Retinaface, mobilenet0.25 사용
+
+
+![before_alignment_2](https://user-images.githubusercontent.com/101082685/221498721-cbbc6792-9475-449d-b945-d621ba274ee7.gif)
+![after_alignment_3](https://user-images.githubusercontent.com/101082685/221498736-7fcee3d9-9d28-414a-9907-4a5d9aece0ba.gif)
 
 
 ## What's Difference?
