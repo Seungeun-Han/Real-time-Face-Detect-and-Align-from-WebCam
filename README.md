@@ -51,7 +51,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 
 <hr>
 
-### gammaCorrection_and_ContrastNormalization.py
+## gammaCorrection_and_ContrastNormalization.py
 
 - real-time으로 영상을 보정하는 코드입니다.
 - Gamma Correction 연산을 통해 Gamma 값을 계산하여 밝기를 적절하게 조정합니다.
