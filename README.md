@@ -18,6 +18,10 @@
 - Retinaface, mobilenet0.25 사용
 
 
+![before_alignment_2](https://user-images.githubusercontent.com/101082685/221498721-cbbc6792-9475-449d-b945-d621ba274ee7.gif)
+![after_alignment_3](https://user-images.githubusercontent.com/101082685/221498736-7fcee3d9-9d28-414a-9907-4a5d9aece0ba.gif)
+
+
 ## What's Difference?
   - Retinaface
   - Gamma correction
