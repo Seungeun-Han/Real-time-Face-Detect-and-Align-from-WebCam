@@ -30,7 +30,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 
 <hr>
 
-### face_align.py
+## face_align.py
 
 - real-time으로 face를 align하는 코드입니다.
 - insightface의 align 방식을 참고하였습니다.
