@@ -3,6 +3,7 @@
 ## Explain about this Repository
 
 웹캠으로부터 영상을 가져와서 얼굴을 검출하는 코드입니다.
+
 Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은 Insightface 방식을 참고하였습니다.
 
 추가적으로, 자동 밝기 및 대비 조절을 위해 __Gamma Correction 과 Constrast Normalization__ 연산을 추가하였습니다.
