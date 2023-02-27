@@ -26,7 +26,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 #### Result
 ![detect_result](https://user-images.githubusercontent.com/101082685/221504838-e0138952-3558-4099-8a74-8c2bca686a20.jpg)
 
-<br>
+<hr>
 
 ### face_align.py
 - real-time으로 face를 align하는 코드입니다.
