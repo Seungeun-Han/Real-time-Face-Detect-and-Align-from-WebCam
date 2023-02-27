@@ -57,11 +57,12 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 #### Result
 - Before
 
-![before_gc](https://user-images.githubusercontent.com/101082685/221506310-34bb96ee-1e04-4d55-a62e-da2fca542b67.jpg)
+![before_gc](https://user-images.githubusercontent.com/101082685/221508708-a5f3736f-c0c9-44e1-bba2-1ede7330ed33.png)
+
 
 - After
 
-![after_gc](https://user-images.githubusercontent.com/101082685/221506332-44cc6c68-06ce-41c9-a801-5a523b9bd8f9.jpg)
+![after_gc](https://user-images.githubusercontent.com/101082685/221508726-f16daba6-6947-4b76-ac5b-bcb98b1ee96f.png)
 
 <hr>
 
