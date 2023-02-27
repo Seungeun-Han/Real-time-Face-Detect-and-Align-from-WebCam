@@ -1,12 +1,11 @@
-# Detect-Face-and-Apply-Gamma-Correction
+# Face-Detect-and-Align-from-WebCam
 
 ## Explain about this Repository
-1. Retinaface를 이용해 얼굴 전체를 나타내는 bounding box와 5개의 landmark(눈에 2개, 코에 1개, 입에 2개)를 찾음.
-2. Gamma Correction → Brightness Normalization
-3. Contrast Normalization
-4. 왼쪽 눈, 오른쪽 눈, 입 부분의 위치를 고정 → 얼굴이 옆으로 기울어져도 바운딩 박스에서 눈 또는 입이 벗어나지 않게 하기 위함
-5. 왼쪽 눈, 오른쪽 눈, 입 부분을 직사각형으로 crop함.
-6. 프레임 별 .jpg 파일 저장 
+
+웹캠으로부터 영상을 가져와서 얼굴을 검출하는 코드입니다.
+Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은 Insightface 방식을 참고하였습니다.
+
+추가적으로, 자동 밝기 및 대비 조절을 위해 __Gamma Correction 과 Constrast Normalization__ 연산을 추가하였습니다.
 
 
 ## Explain about the codes respectively
