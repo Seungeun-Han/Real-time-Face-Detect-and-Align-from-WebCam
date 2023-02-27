@@ -17,7 +17,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 <hr>
 
 ## Explain about the codes respectively
-### face_detect.py
+## face_detect.py
 
 - real-time으로 face를 detect하는 코드입니다..
 - face와 left eye에 대한 bounding box 출력
