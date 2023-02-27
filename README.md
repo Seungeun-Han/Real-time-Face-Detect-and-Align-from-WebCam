@@ -14,6 +14,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 - [gammaCorrection_and_ContrastNormalization.py](#gammaCorrection_and_ContrastNormalization.py)
 - [Reference](#Reference)
 
+<hr>
 
 ## Explain about the codes respectively
 ### face_detect.py
@@ -46,7 +47,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 
 얼굴이 기울어지거나 멀어져도 landmarks의 위치는 변하지 않는 것을 볼 수 있습니다.
 
-<br>
+<hr>
 
 ### gammaCorrection_and_ContrastNormalization.py
 - real-time으로 영상을 보정하는 코드입니다.
@@ -62,7 +63,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 
 ![after_gc](https://user-images.githubusercontent.com/101082685/221506332-44cc6c68-06ce-41c9-a801-5a523b9bd8f9.jpg)
 
-<br>
+<hr>
 
 
 
