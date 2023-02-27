@@ -9,7 +9,7 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 추가적으로, 자동 밝기 및 대비 조절을 위해 __Gamma Correction 과 Constrast Normalization__ 연산을 추가하였습니다.
 
 
-- [face_detect](#Explain about the codes respectively)
+- [face_detect](#face_detect.py)
 - [face_align](#face_align.py)
 - [gammaCorrection_and_ContrastNormalization](#gammaCorrection_and_ContrastNormalization.py)
 - [Reference](#Reference)
