@@ -11,21 +11,49 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 
 ## Explain about the codes respectively
 ### face_detect.py
-- real-time으로 face를 detect하는 코드.
+- real-time으로 face를 detect하는 코드입니다..
 - face와 left eye에 대한 bounding box 출력
 - left/right eye, nose, left/right mouth 포인트 출력 (5 landmarks)
 - detect 결과를 face_detect_result.jpg로 저장
 - Retinaface, mobilenet0.25 사용
 
+#### Result
+![detect_result](https://user-images.githubusercontent.com/101082685/221504838-e0138952-3558-4099-8a74-8c2bca686a20.jpg)
 
+
+
+### face_align.py
+- real-time으로 face를 align하는 코드입니다.
+- insightface의 align 방식을 참고하였습니다.
+- align 후 size는 __473X473__ 입니다.
+- align 후엔 웹캠에서 읽어오는 얼굴이 기울어지거나, 멀거나 가까워져도 5개의 landmark의 위치는 변하지 않습니다.
+
+#### result
+- Before Apply Alignment
 ![before_alignment_2](https://user-images.githubusercontent.com/101082685/221498721-cbbc6792-9475-449d-b945-d621ba274ee7.gif)
+
+- After Apply Alignment
 ![after_alignment_3](https://user-images.githubusercontent.com/101082685/221498736-7fcee3d9-9d28-414a-9907-4a5d9aece0ba.gif)
 
 
-## What's Difference?
-  - Retinaface
-  - Gamma correction
-  - contrast normalizaiton
+얼굴이 기울어지거나 멀어져도 landmarks의 위치는 변하지 않는 것을 볼 수 있습니다.
+
+
+
+### gammaCorrection_and_ContrastNormalization.py
+- real-time으로 영상을 보정하는 코드입니다.
+- Gamma Correction 연산을 통해 Gamma 값을 계산하여 밝기를 적절하게 조정합니다.
+- Contrast Normalization 연산을 통해 대비를 적절하게 조정합니다.
+
+#### result
+- Before
+![before_gc](https://user-images.githubusercontent.com/101082685/221506310-34bb96ee-1e04-4d55-a62e-da2fca542b67.jpg)
+
+- After
+![after_gc](https://user-images.githubusercontent.com/101082685/221506332-44cc6c68-06ce-41c9-a801-5a523b9bd8f9.jpg)
+
+
+
 
 
 ## Reference
@@ -39,39 +67,9 @@ Face Detection을 위해 RetinaFace를 사용했으며, Face Alignment 방식은
 
   what I used: https://github.com/biubug6/Pytorch_Retinaface
 
-### Gamma Correction
-- gamma correction을 사용하여 drowsiness detection을 한 논문: https://www.mdpi.com/1999-5903/11/5/115
-
-  > we applied gamma correction to enhance image contrast, which can help our method achieve better results,
-  > 
-  > noted by an increased accuracy of 2% in night environments.
-
-- but, 논문에서 gamma 값을 명시하지 않아서 얼마로 할지 근거가 필요함.
-
-
-### face normalization and recognition
-- http://www1.cs.columbia.edu/~jebara/htmlpapers/UTHESIS/node46.html
-
-- __face normalization이 얼굴 인식 분야에선 필요함.  but, face detection에선 꼭 필요할까? 에 대한 survey__
-
-  paper: https://ieeexplore.ieee.org/document/5395980
-
-  keypoint:
-
-  >  Aim of the face detection system is to identify and locate all faces 
-  >  
-  >  regardless of their positions, scale, orientation, lighting conditions, expressions, etc
-
-  > The recognition rate of 94 percent is obtained for original images whereas it increased to 97 percent for normalized images.
-
-
 
 ### face alignment
-- https://github.com/1adrianb/face-alignment
-
-- insightface의 face alignment 방식 사용 예정
+https://github.com/deepinsight/insightface
 
 
-### Face Image Normalization For Authentication Under Diverse Lighting Conditions 논문 참고
 
-https://www.tdcommons.org/cgi/viewcontent.cgi?article=4488&context=dpubs_series
